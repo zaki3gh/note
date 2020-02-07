@@ -1,0 +1,9 @@
+https://github.com/zaki3gh/note
+
+githubからclone
+
+> git clone -v https://github.com/zaki3gh/note.git
+
+アドレスは、Clone or downloadのコンボボックスを開くと分かる。
+
+--
