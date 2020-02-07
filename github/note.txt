@@ -1,9 +1,26 @@
 https://github.com/zaki3gh/note
 
+リモート→ローカル
 githubからclone
-
 > git clone -v https://github.com/zaki3gh/note.git
 
-アドレスは、Clone or downloadのコンボボックスを開くと分かる。
+ * アドレスは、Clone or downloadのコンボボックスを開くと分かる。
 
+リモートリポジトリの変更を取り込む
+> git pull
+
+
+ローカル
+ファイルの追加
+> git add ファイルパス
+
+追加されたファイルの確認
+> git status
+
+追加されたファイルのcommit
+> git commit -m "メッセージ"
+
+
+ローカル→リモート
+> git push
 --
