@@ -7,8 +7,18 @@ githubからclone
  * アドレスは、Clone or downloadのコンボボックスを開くと分かる。
 
 リモートリポジトリの変更を取り込む
+> git pull origin ブランチ名
+上流ブランチ(git status)で見えるものを取り込む場合は省略できる。
 > git pull
 
+ブランチの切り替え
+>git checkout ブランチ名
+
+リモートのブランチを上流ブランチとするローカルブランチの作成
+> git branch ローカルのブランチ名  リモートのブランチ名
+> git checkout ローカルのブランチ名
+  (> git branch github origin/github
+   > git checkout github)
 
 ローカル
 ファイルの追加
@@ -22,5 +32,8 @@ githubからclone
 
 
 ローカル→リモート
+> git push origin ブランチ名
+上流ブランチ(git status)で見えるところに入れる場合は省略できる。
 > git push
+
 --
